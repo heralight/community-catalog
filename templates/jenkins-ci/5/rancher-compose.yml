@@ -1,6 +1,6 @@
 .catalog:
   name: Jenkins
-  version: lts-alpine-rancher1
+  version: lts-slim-rancher1
   description: |
     Jenkins CI management server.
   questions:
