@@ -1,11 +1,13 @@
 .catalog:
   name: Jenkins
-  version: lts-alpine-rancher1
+  version: community-rancher1
   description: |
     Jenkins CI management server.
   questions:
   - variable: "image_version"
     description: "jenkins docker image version"
+    label: "Docker Image Version"
+    type: "string"
     default: "lts"
     require: true
   - variable: "PORT"
