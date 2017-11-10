@@ -4,11 +4,11 @@
   description: |
     Jenkins CI management server.
   questions:
-  - variable: "image_version"
-    description: "jenkins docker image version"
+  - variable: "jenkins_image"
+    description: "jenkins docker image"
     label: "Docker Image Version"
     type: "string"
-    default: "lts"
+    default: "jenkins/jenkins:lts"
     require: true
   - variable: "PORT"
     type: "int"
